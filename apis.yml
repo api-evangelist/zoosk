@@ -1,4 +1,16 @@
 aid: zoosk
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/zoosk.png
 name: Zoosk
 description: 'Zoosk is a company surfaced as a portfolio company of bessemer-venture-partners and added
   to the API Evangelist network as a stub for enrichment. Sector: consumer. This profile is a lead awaiting
@@ -23,5 +35,7 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/zoosk-domain-security.yml
 - type: Website
   url: https://www.zoosk.com/
